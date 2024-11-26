@@ -1,0 +1,3 @@
+nasm -f elf64 -o <file_name>.o <file_name>.<asm|s>
+ld <file_name>.o -o <name>
+./<name>
