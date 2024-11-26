@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cats=("hello_world" "jumps_calls_comparisons" "input" "math_stack" "subroutine_print_strings" "macros" "subroutine_print_integers" "cli_args" "file_perms" "files_writes" "files_reads" "nanosleep")
 
 for i in ${!cats[@]}; do
